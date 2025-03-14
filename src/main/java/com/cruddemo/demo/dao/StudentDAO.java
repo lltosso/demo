@@ -8,5 +8,6 @@ public interface StudentDAO {
     void save(Student theStudent);
     Student findById(int id);
     List<Student> findAll();
+    List<Student> findByLastName(String last_name);
 }
 
